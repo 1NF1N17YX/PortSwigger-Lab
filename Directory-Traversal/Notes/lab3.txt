@@ -5,7 +5,7 @@ Target Goal - Retrieve the contents of the /etc/passwd file.
 Analysis:
 
 This is the potential directory path where the app may store the image files:
-/var/www/images/
+/var/www/image/
 
 experimenting the payloads on the vulerable filename parameter :
 
