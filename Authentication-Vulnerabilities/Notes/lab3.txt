@@ -1,0 +1,14 @@
+Lab #3 - Username enumeration via response timing
+
+Target Goal - Enumerate a valid username and then brute-force the user's password.
+
+Your credentials: wiener:peter
+
+Analysis:
+
+Adding the header to our request in order to bypass the IP-based brute-force protection
+X-Forwarded-For
+
+Valid credentials
+username: am
+password: asdfgh
